@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18040a" />
+      <stop offset="50%" stop-color="#0c0205" />
+      <stop offset="100%" stop-color="#140308" />
+    </linearGradient>
+    <linearGradient id="redGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e11d48" />
+      <stop offset="100%" stop-color="#9f1239" />
+    </linearGradient>
+    <radialGradient id="aura" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#e11d48" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="url(#bgGrad)" />
+  <circle cx="400" cy="400" r="350" fill="url(#aura)" />
+
+  <!-- App Header Bar -->
+  <rect x="40" y="40" width="720" height="60" rx="16" fill="#1f070e" stroke="#3b111c" stroke-width="2" />
+  <circle cx="80" cy="70" r="8" fill="#e11d48" />
+  <text x="105" y="76" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="900" letter-spacing="2">ANIX</text>
+  <text x="165" y="75" fill="#fda4af" font-family="monospace" font-size="12">STREAMING HUB</text>
+  <rect x="620" y="55" width="110" height="30" rx="15" fill="#e11d48" />
+  <text x="675" y="75" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">LIVE HD</text>
+
+  <!-- Video Player Mockup -->
+  <rect x="40" y="130" width="720" height="420" rx="24" fill="#060103" stroke="#4a1523" stroke-width="2" />
+  
+  <!-- Video Player Content -->
+  <circle cx="400" cy="330" r="48" fill="#e11d48" opacity="0.9" />
+  <polygon points="390,310 390,350 424,330" fill="#ffffff" />
+  
+  <!-- Cyberpunk Player Grid Pattern -->
+  <path d="M40 220 H760 M40 330 H760 M40 440 H760" stroke="#250912" stroke-width="1" stroke-dasharray="8 8" />
+  <path d="M220 130 V550 M400 130 V550 M580 130 V550" stroke="#250912" stroke-width="1" stroke-dasharray="8 8" />
+
+  <!-- Title overlay inside player -->
+  <text x="80" y="500" fill="#ffffff" font-family="system-ui, sans-serif" font-size="24" font-weight="bold">Neon Genesis : Final Impact</text>
+  <text x="80" y="525" fill="#fda4af" font-family="monospace" font-size="13">Episode 24 • HLS Multi-Server • 1080p 60FPS</text>
+
+  <!-- Progress Scrubber -->
+  <rect x="40" y="542" width="720" height="8" fill="#1b070e" />
+  <rect x="40" y="542" width="460" height="8" fill="url(#redGlow)" />
+
+  <!-- Episode Selector Grid -->
+  <text x="40" y="600" fill="#fca5a5" font-family="monospace" font-size="14" font-weight="bold" letter-spacing="1">EPISODE LIST</text>
+  
+  <rect x="40" y="620" width="220" height="70" rx="14" fill="#1e0710" stroke="#e11d48" stroke-width="1.5" />
+  <text x="60" y="650" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">EP 01 • Awakening</text>
+  <text x="60" y="672" fill="#fda4af" font-family="monospace" font-size="11">24:18 • Completed</text>
+
+  <rect x="290" y="620" width="220" height="70" rx="14" fill="#15050b" stroke="#38101c" stroke-width="1.5" />
+  <text x="310" y="650" fill="#eed1d8" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">EP 02 • Beast Mode</text>
+  <text x="310" y="672" fill="#9f8a91" font-family="monospace" font-size="11">23:45 • Ready</text>
+
+  <rect x="540" y="620" width="220" height="70" rx="14" fill="#15050b" stroke="#38101c" stroke-width="1.5" />
+  <text x="560" y="650" fill="#eed1d8" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">EP 03 • Singularity</text>
+  <text x="560" y="672" fill="#9f8a91" font-family="monospace" font-size="11">25:10 • Ready</text>
+
+  <!-- Trending Anime Carousel Row -->
+  <text x="40" y="740" fill="#fca5a5" font-family="monospace" font-size="14" font-weight="bold" letter-spacing="1">SIMULCAST AIRING</text>
+  
+  <rect x="40" y="760" width="160" height="180" rx="14" fill="#1a060d" stroke="#360f1a" stroke-width="1.5" />
+  <rect x="55" y="775" width="130" height="110" rx="10" fill="#290a15" />
+  <circle cx="120" cy="830" r="24" fill="#e11d48" opacity="0.7" />
+  <text x="120" y="915" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">Cyber Horizon</text>
+
+  <rect x="225" y="760" width="160" height="180" rx="14" fill="#1a060d" stroke="#360f1a" stroke-width="1.5" />
+  <rect x="240" y="775" width="130" height="110" rx="10" fill="#290a15" />
+  <circle cx="305" cy="830" r="24" fill="#e11d48" opacity="0.7" />
+  <text x="305" y="915" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">Chrono Rebirth</text>
+
+  <rect x="410" y="760" width="160" height="180" rx="14" fill="#1a060d" stroke="#360f1a" stroke-width="1.5" />
+  <rect x="425" y="775" width="130" height="110" rx="10" fill="#290a15" />
+  <circle cx="490" cy="830" r="24" fill="#e11d48" opacity="0.7" />
+  <text x="490" y="915" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">Solar Odyssey</text>
+
+  <rect x="595" y="760" width="165" height="180" rx="14" fill="#1a060d" stroke="#360f1a" stroke-width="1.5" />
+  <rect x="612" y="775" width="130" height="110" rx="10" fill="#290a15" />
+  <circle cx="677" cy="830" r="24" fill="#e11d48" opacity="0.7" />
+  <text x="677" y="915" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">Abyss Requiem</text>
+</svg>
